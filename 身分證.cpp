@@ -88,7 +88,7 @@ int main(){
     }
     int idNumber;
         cout << "請輸入身份證字號的數字:";
-        cin >> idNumber
+        cin >> idNumber;
     
     int n8 = idNumber/10000000%10;
     int n7 = idNumber/1000000%10;
