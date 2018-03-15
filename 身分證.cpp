@@ -74,7 +74,7 @@ int main(){
             wordIntoNumber += 31;
         break;
         case 'W':
-        wordIntoNumber += 32;
+            wordIntoNumber += 32;
         break;
         case 'Z':
             wordIntoNumber += 33;
