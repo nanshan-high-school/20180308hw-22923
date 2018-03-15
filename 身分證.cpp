@@ -31,58 +31,58 @@ int main(){
         case 'H':
             wordIntoNumber += 17;
         break;
-        case 'I':
+        case 'J':
             wordIntoNumber += 18;
         break;
-        case 'J':
+        case 'K':
             wordIntoNumber += 19;
         break;
-        case 'K':
+        case 'L':
             wordIntoNumber += 20;
         break;
-        case 'L':
+        case 'M':
             wordIntoNumber += 21;
         break;
-        case 'M':
+        case 'N':
             wordIntoNumber += 22;
         break;
-        case 'N':
+        case 'P':
             wordIntoNumber += 23;
         break;
-        case 'O':
+        case 'Q':
             wordIntoNumber += 24;
         break;
-        case 'P':
+        case 'R':
             wordIntoNumber += 25;
         break;
-        case 'Q':
+        case 'S':
             wordIntoNumber += 26;
         break;
-        case 'R':
+        case 'T':
             wordIntoNumber += 27;
         break;
-        case 'S':
+        case 'U':
             wordIntoNumber += 28;
         break;
-        case 'T':
+        case 'V':
             wordIntoNumber += 29;
         break;
-        case 'U':
+        case 'X':
             wordIntoNumber += 30;
         break;
-        case 'V':
+        case 'Y':
             wordIntoNumber += 31;
         break;
         case 'W':
         wordIntoNumber += 32;
         break;
-        case 'X':
+        case 'Z':
             wordIntoNumber += 33;
         break;
-        case 'Y':
+        case 'I':
             wordIntoNumber += 34;
         break;
-        case 'Z':
+        case 'O':
             wordIntoNumber += 35;
         break;
     }
