@@ -1,5 +1,6 @@
 #include <iostream>
 using namespace std;
+
 int main(){
     char englishWord;
     int wordIntoNumber = 0;
@@ -90,16 +91,21 @@ int main(){
         cout << "請輸入身份證字號的數字:";
         cin >> idNumber;
     
-    int n8 = idNumber/10000000%10;
-    int n7 = idNumber/1000000%10;
-    int n6 = idNumber/100000%10;
-    int n5 = idNumber/10000%10;
-    int n4 = idNumber/1000%10;
-    int n3 = idNumber/100%10;
-    int n2 = idNumber/10%10;
-    int n1 = idNumber/1%10;
-
-    if ((wordIntoNumber/10 + wordIntoNumber%10*9 + n8*8 + n7*7 + n6*6 + n5*5 + n4*4 + n3*3 + n2*2 + n1)%10 == 0){
+    int n10 = wordIntoNumber/10;
+    int n9 = wordIntoNumber%10;
+    int n8 = idNumber/100000000%10;
+    int n7 = idNumber/10000000%10;
+    int n6 = idNumber/1000000%10;
+    int n5 = idNumber/100000%10;
+    int n4 = idNumber/10000%10;
+    int n3 = idNumber/1000%10;
+    int n2 = idNumber/100%10;
+    int n1 = idNumber/10%10;
+    int check = idNumber%10;
+    int n = (n10 + n9*9 + n8*8 + n7*7 + n6*6 + n5*5 + n4*4 + n3*3 + n2*2 + n1)%10;
+    int endNumber = (n + check)%10;
+    
+    if (endNumber == 0){
         cout << "是正確的身分證字號\n";
     }else {
         cout << "不是正確的身分證字號\n";
